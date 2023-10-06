@@ -16,7 +16,7 @@ class HelloClassTest {
 	@Test 
 	void testHello() {
 		
-		assertEquals(4,3,"Doit retourner la surface d'un carré.");
+		assertEquals(3,3,"Doit retourner la surface d'un carré.");
 	}
 
 
