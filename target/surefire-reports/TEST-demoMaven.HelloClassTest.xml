@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="demoMaven.HelloClassTest" time="0.012" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="demoMaven.HelloClassTest" time="0.006" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FR"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.13.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/nguermou/eclipse-workspace/demoMaven/target/surefire/surefirebooter13736935197871815362.jar /Users/nguermou/eclipse-workspace/demoMaven/target/surefire 2023-10-06T16-11-29_166-jvmRun1 surefire15547018470375665439tmp surefire_07241495219602545626tmp"/>
+    <property name="sun.java.command" value="/Users/nguermou/eclipse-workspace/demoMaven/target/surefire/surefirebooter9416646916339867783.jar /Users/nguermou/eclipse-workspace/demoMaven/target/surefire 2023-10-06T16-29-43_376-jvmRun1 surefire15781008699365202184tmp surefire_011887730900181037971tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/nguermou/eclipse-workspace/demoMaven/target/test-classes:/Users/nguermou/eclipse-workspace/demoMaven/target/classes:/Users/nguermou/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.3.1/junit-jupiter-api-5.3.1.jar:/Users/nguermou/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/nguermou/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/Users/nguermou/.m2/repository/org/junit/platform/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.jar:/Users/nguermou/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.3.1/junit-jupiter-engine-5.3.1.jar:/Users/nguermou/.m2/repository/org/junit/platform/junit-platform-engine/1.3.1/junit-platform-engine-1.3.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/nguermou/eclipse-workspace/demoMaven/target/surefire/surefirebooter13736935197871815362.jar"/>
+    <property name="surefire.real.class.path" value="/Users/nguermou/eclipse-workspace/demoMaven/target/surefire/surefirebooter9416646916339867783.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.13+10-LTS-370"/>
     <property name="user.name" value="nguermou"/>
@@ -58,11 +58,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testHello" classname="demoMaven.HelloClassTest" time="0.008">
-    <failure message="Doit retourner la surface d&apos;un carré. ==&gt; expected: &lt;4&gt; but was: &lt;3&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Doit retourner la surface d'un carré. ==> expected: <4> but was: <3>
-	at demoMaven.HelloClassTest.testHello(HelloClassTest.java:19)
-]]></failure>
-    <system-out><![CDATA[Test commence! 
-]]></system-out>
-  </testcase>
+  <testcase name="testHello" classname="demoMaven.HelloClassTest" time="0"/>
 </testsuite>
