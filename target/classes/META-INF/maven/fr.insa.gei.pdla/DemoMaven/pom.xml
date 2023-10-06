@@ -24,7 +24,7 @@
 						<configuration>
 							<transformers>
 								<transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-									<mainClass>hello.HelloWorld</mainClass>
+									<mainClass>demoMaven.HelloClass</mainClass>
 								</transformer>
 							</transformers>
 						</configuration>
