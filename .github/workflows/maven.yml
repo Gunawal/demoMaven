@@ -57,7 +57,14 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         cache: maven
-    - name: Build with Maven
+    - name: Package with Maven
       run: mvn -B package --file pom.xml
+
+    - name: Upload with Maven
+      uses: actions/upload-artifact@v3
+      with:
+        name: demoMaven
+        path : target/
+    
 
 
