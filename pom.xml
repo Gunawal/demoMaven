@@ -10,7 +10,7 @@
 		<maven.compiler.target>11</maven.compiler.target>
 	</properties>
   
-  <build>
+ 	<!-- <build>
   	<pluginManagement>
   		<plugins>
   			<plugin>
@@ -46,7 +46,7 @@
   				<version>3.0.0</version>  				
   			</plugin>  		  		
   		</plugins>
-  	</pluginManagement>
+  	</pluginManagement>-->
   
 		<!-- <plugins>
 			<plugin>
@@ -69,7 +69,7 @@
 					</execution>
 				</executions>
 			</plugin>
-		</plugins> -->
-	</build>
+		</plugins> 
+	</build>-->
   
 </project>
